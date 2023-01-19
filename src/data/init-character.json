@@ -1,0 +1,83 @@
+{
+	"abilities": {},
+	"attributes": {
+		"strength": {
+			"abbr": "STR",
+			"dots": 1,
+			"epics": 0,
+			"isFavored": true,
+			"name": "Strength"
+		},
+		"dexterity": {
+			"abbr": "DEX",
+			"dots": 1,
+			"epics": 0,
+			"isFavored": false,
+			"name": "Dexterity"
+		},
+		"stamina": {
+			"abbr": "STA",
+			"dots": 1,
+			"epics": 0,
+			"isFavored": false,
+			"name": "Stamina"
+		},
+		"charisma": {
+			"abbr": "CHA",
+			"dots": 1,
+			"epics": 0,
+			"isFavored": true,
+			"name": "Charisma"
+		},
+		"manipulation": {
+			"abbr": "MAN",
+			"dots": 1,
+			"epics": 0,
+			"isFavored": false,
+			"name": "Manipulation"
+		},
+		"appearance": {
+			"abbr": "APP",
+			"dots": 1,
+			"epics": 0,
+			"isFavored": false,
+			"name": "Appearance"
+		},
+		"perception": {
+			"abbr": "PER",
+			"dots": 1,
+			"epics": 0,
+			"isFavored": true,
+			"name": "Perception"
+		},
+		"intelligence": {
+			"abbr": "INT",
+			"dots": 1,
+			"epics": 0,
+			"isFavored": false,
+			"name": "Intelligence"
+		},
+		"wits": {
+			"abbr": "WIT",
+			"dots": 1,
+			"epics": 0,
+			"isFavored": false,
+			"name": "Wits"
+		}
+	},
+	"backgrounds": {},
+	"healthBar": [],
+	"healthIndex": 0,
+	"knacks": {
+		"strength": {},
+		"dexterity": {},
+		"stamina": {},
+		"charisma": {},
+		"manipulation": {},
+		"appearance": {},
+		"perception": {},
+		"intelligence": {},
+		"wits": {}
+	},
+	"name": null
+}
