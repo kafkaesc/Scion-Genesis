@@ -1,10 +1,10 @@
 import { IconButton } from '@mui/material';
 import Grid2 from '@mui/material/Unstable_Grid2'; // Grid version 2
 
-import AddCircleIcon from '@mui/icons-material/AddCircle';
-import RadioButtonUncheckedIcon from '@mui/icons-material/RadioButtonUnchecked';
-import CloseIcon from '@mui/icons-material/Close';
-import RemoveCircleIcon from '@mui/icons-material/RemoveCircle';
+import IncrementIcon from '@mui/icons-material/AddCircle';
+import EpicIcon from '@mui/icons-material/Close';
+import DotIcon from '@mui/icons-material/RadioButtonUnchecked';
+import DecrementIcon from '@mui/icons-material/RemoveCircle';
 
 function AttributeEditor({ attribute, character, updateDots, updateEpics }) {
 	function incrementDots() {
@@ -46,10 +46,10 @@ function AttributeEditor({ attribute, character, updateDots, updateEpics }) {
 				onClick={decrementDots}
 				size="small"
 			>
-				<RemoveCircleIcon />
+				<DecrementIcon />
 			</IconButton>
 			{[...Array(attribute.dots)].map((val, i) => (
-				<RadioButtonUncheckedIcon
+				<DotIcon
 					className="valign-middle"
 					key={`${attribute.abbr}-${i}`}
 					fontSize="small"
@@ -60,7 +60,7 @@ function AttributeEditor({ attribute, character, updateDots, updateEpics }) {
 				onClick={incrementDots}
 				size="small"
 			>
-				<AddCircleIcon />
+				<IncrementIcon />
 			</IconButton>
 			<br />
 			<IconButton
@@ -68,10 +68,10 @@ function AttributeEditor({ attribute, character, updateDots, updateEpics }) {
 				onClick={decrementEpics}
 				size="small"
 			>
-				<RemoveCircleIcon />
+				<DecrementIcon />
 			</IconButton>
 			{[...Array(attribute.epics)].map((val, i) => (
-				<CloseIcon
+				<EpicIcon
 					className="valign-middle"
 					key={`${attribute.abbr}-E-${i}`}
 					fontSize="small"
@@ -82,7 +82,7 @@ function AttributeEditor({ attribute, character, updateDots, updateEpics }) {
 				onClick={incrementEpics}
 				size="small"
 			>
-				<AddCircleIcon />
+				<IncrementIcon />
 			</IconButton>
 		</Grid2>
 	);
