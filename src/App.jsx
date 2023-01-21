@@ -7,7 +7,7 @@ function App() {
 	return (
 		<div className="app">
 			<header className="app-header">
-				<h1>Home</h1>
+				<h1>Scion Genesis</h1>
 			</header>
 			<div className="main-content">
 				<Outlet />

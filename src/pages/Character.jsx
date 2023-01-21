@@ -7,6 +7,8 @@ import AttributeDisplay from 'components/AttributeDisplay';
 const nicolas = require('data/nicolas-steelbeard.json');
 
 function Character() {
+	// The notice annoys me and I expect this to be used eventually.
+	// eslint-disable-next-line no-unused-vars
 	const [character, setCharacter] = useState(nicolas);
 	return (
 		<div className="content-column">

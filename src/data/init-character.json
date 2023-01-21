@@ -69,15 +69,17 @@
 	"healthBar": [],
 	"healthIndex": 0,
 	"knacks": {
-		"strength": {},
-		"dexterity": {},
-		"stamina": {},
-		"charisma": {},
-		"manipulation": {},
-		"appearance": {},
-		"perception": {},
-		"intelligence": {},
-		"wits": {}
+		"strength": [],
+		"dexterity": [],
+		"stamina": [],
+		"charisma": [],
+		"manipulation": [],
+		"appearance": [],
+		"perception": [],
+		"intelligence": [],
+		"wits": []
 	},
-	"name": null
+	"legend": 0,
+	"name": null,
+	"willpower": 0
 }

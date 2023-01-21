@@ -6,32 +6,32 @@ import RadioButtonUncheckedIcon from '@mui/icons-material/RadioButtonUnchecked';
 import CloseIcon from '@mui/icons-material/Close';
 import RemoveCircleIcon from '@mui/icons-material/RemoveCircle';
 
-function AttributeEditor({ attribute, character, update }) {
+function AttributeEditor({ attribute, character, updateDots, updateEpics }) {
 	function incrementDots() {
 		if (attribute.dots < 5) {
 			attribute.dots += 1;
-			update(attribute);
+			updateDots(attribute);
 		}
 	}
 
 	function decrementDots() {
 		if (attribute.dots > 1) {
 			attribute.dots -= 1;
-			update(attribute);
+			updateDots(attribute);
 		}
 	}
 
 	function incrementEpics() {
 		if (attribute.epics < 5) {
 			attribute.epics += 1;
-			update(attribute);
+			updateEpics(attribute, 'up');
 		}
 	}
 
 	function decrementEpics() {
 		if (attribute.epics > 0) {
 			attribute.epics -= 1;
-			update(attribute);
+			updateEpics(attribute, 'down');
 		}
 	}
 

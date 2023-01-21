@@ -1,0 +1,12 @@
+.knack-picker {
+	border: solid 1px #eee;
+	height: 5rem;
+	overflow: hidden;
+	padding-left: 0.5em;
+	padding-right: 0.5em;
+	transition: height 600ms ease-out;
+}
+
+.knack-picker--collapsed {
+	height: 0;
+}
