@@ -1,5 +1,49 @@
 {
-	"abilities": {},
+	"abilities": {
+		"awareness": {
+			"isFavored": false,
+			"name": "Awareness",
+			"set": "Mind",
+			"value": 0
+		},
+		"dodge": {
+			"isFavored": false,
+			"name": "Dodge",
+			"set": "Matter",
+			"value": 0
+		},
+		"drive": {
+			"isFavored": false,
+			"name": "Drive",
+			"set": "Matter",
+			"value": 0
+		},
+		"integrity": {
+			"isFavored": false,
+			"name": "Integrity",
+			"set": "Mind",
+			"value": 0
+		},
+		"investigate": {
+			"isFavored": false,
+			"name": "Investigate",
+			"set": "Mind",
+			"value": 0
+		},
+		"lore": { "isFavored": false, "name": "Lore", "set": "Mind", "value": 0 },
+		"melee": {
+			"isFavored": false,
+			"name": "Melee",
+			"set": "Matter",
+			"value": 0
+		},
+		"projectile": {
+			"isFavored": false,
+			"name": "Projectile",
+			"set": "Matter",
+			"value": 0
+		}
+	},
 	"attributes": {
 		"strength": {
 			"abbr": "STR",
@@ -66,7 +110,7 @@
 		}
 	},
 	"backgrounds": {},
-	"healthBar": [],
+	"healthBar": [0, -1, -1, -2, -2, -4, -100],
 	"healthIndex": 0,
 	"knacks": {
 		"strength": [],
@@ -79,7 +123,8 @@
 		"intelligence": [],
 		"wits": []
 	},
-	"legend": 0,
+	"legend": 1,
+	"legendPool": 1,
 	"name": null,
-	"willpower": 0
+	"willpower": 1
 }

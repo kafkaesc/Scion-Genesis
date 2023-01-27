@@ -3,6 +3,8 @@ import { useState } from 'react';
 import Grid2 from '@mui/material/Unstable_Grid2'; // Grid version 2
 
 import AttributeDisplay from 'components/AttributeDisplay';
+import SoakValues from 'components/SoakValues';
+import DefenseValues from 'components/DefenseValues';
 
 const nicolas = require('data/nicolas-steelbeard.json');
 
@@ -51,6 +53,12 @@ function Character() {
 					attribute={character.attributes.wits}
 					character={character}
 				/>
+			</Grid2>
+			<Grid2 container spacing={1}>
+				<Grid2 xs={12}>
+					<DefenseValues character={character} />
+					<SoakValues character={character} />
+				</Grid2>
 			</Grid2>
 		</div>
 	);
