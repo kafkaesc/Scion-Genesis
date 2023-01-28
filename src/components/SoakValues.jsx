@@ -6,6 +6,7 @@ function SoakValues({ character }) {
 	return (
 		<p>
 			Aggravated: {aggravatedSoak}; Bashing: {bashingSoak}; Lethal: {lethalSoak}
+			;
 		</p>
 	);
 }
