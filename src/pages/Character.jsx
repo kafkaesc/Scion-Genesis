@@ -5,6 +5,7 @@ import Grid2 from '@mui/material/Unstable_Grid2'; // Grid version 2
 import AttributeDisplay from 'components/AttributeDisplay';
 import SoakValues from 'components/SoakValues';
 import DefenseValues from 'components/DefenseValues';
+import AbilitySetsDisplay from 'components/AbilitySetsDisplay';
 
 const nicolas = require('data/nicolas-steelbeard.json');
 
@@ -58,6 +59,9 @@ function Character() {
 				<Grid2 xs={12}>
 					<DefenseValues character={character} />
 					<SoakValues character={character} />
+				</Grid2>
+				<Grid2 xs={12}>
+					<AbilitySetsDisplay character={character} />
 				</Grid2>
 			</Grid2>
 		</div>
