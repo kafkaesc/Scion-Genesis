@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Scion-Genesis/static/css/main.53f050a8.css",
+    "main.js": "/Scion-Genesis/static/js/main.d8b630ef.js",
+    "static/js/787.c56dbe81.chunk.js": "/Scion-Genesis/static/js/787.c56dbe81.chunk.js",
+    "index.html": "/Scion-Genesis/index.html",
+    "main.53f050a8.css.map": "/Scion-Genesis/static/css/main.53f050a8.css.map",
+    "main.d8b630ef.js.map": "/Scion-Genesis/static/js/main.d8b630ef.js.map",
+    "787.c56dbe81.chunk.js.map": "/Scion-Genesis/static/js/787.c56dbe81.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.53f050a8.css",
+    "static/js/main.d8b630ef.js"
+  ]
+}
