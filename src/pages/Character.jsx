@@ -1,6 +1,7 @@
 import { useState } from 'react';
 
 import Grid2 from '@mui/material/Unstable_Grid2'; // Grid version 2
+import Typography from '@mui/material/Typography';
 
 import AttributeDisplay from 'components/AttributeDisplay';
 import SoakValues from 'components/SoakValues';
@@ -15,8 +16,9 @@ function Character() {
 	const [character, setCharacter] = useState(nicolas);
 	return (
 		<div className="content-column">
-			<h2>{character.name}</h2>
-			<p>Character page (viewing).</p>
+			<Typography variant="h2" variantMapping="h2">
+				{character.name}
+			</Typography>
 			<Grid2 container spacing={1}>
 				<AttributeDisplay
 					attribute={character.attributes.strength}

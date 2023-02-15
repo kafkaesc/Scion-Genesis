@@ -1,11 +1,17 @@
 import { Link } from 'react-router-dom';
 
+import Typography from '@mui/material/Typography';
+
 function Home() {
 	return (
 		<div className="content-column">
-			<h2>Home</h2>
-			<p>The Scion character builder.</p>
-			<p>
+			<Typography variant="h2" variantMapping="h2">
+				Home
+			</Typography>
+			<Typography variant="body1" variantMapping="p">
+				The Scion character builder.
+			</Typography>
+			<Typography variant="body1" variantMapping="p">
 				<Link to="/About">About</Link>
 				{' — '}
 				<Link to="/Character">Character</Link>
@@ -13,7 +19,7 @@ function Home() {
 				<Link to="/CharacterEditor">CharacterEditor</Link>
 				{' — '}
 				<Link to="/Instructions">Instructions</Link>
-			</p>
+			</Typography>
 		</div>
 	);
 }

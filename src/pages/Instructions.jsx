@@ -1,8 +1,14 @@
+import Typography from '@mui/material/Typography';
+
 function Instructions() {
 	return (
 		<div className="content-column">
-			<h2>Instructions</h2>
-			<p>How to use this app.</p>
+			<Typography variant="h2" variantMapping="h2">
+				Instructions
+			</Typography>
+			<Typography variant="body1" variantMapping="p">
+				How to use this app.
+			</Typography>
 		</div>
 	);
 }

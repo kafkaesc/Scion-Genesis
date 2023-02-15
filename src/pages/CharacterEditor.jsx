@@ -1,6 +1,7 @@
 import { useState } from 'react';
 
 import Grid2 from '@mui/material/Unstable_Grid2'; // Grid version 2
+import Typography from '@mui/material/Typography';
 
 import AttributeEditor from 'components/AttributeEditor';
 import KnackPicker from 'components/KnackPicker';
@@ -33,11 +34,17 @@ function CharacterEditor() {
 
 	return (
 		<div className="content-column">
-			<h2>{character.name ? character.name : 'New Character'}</h2>
-			<p>Character page (editing).</p>
+			<Typography variant="h2" variantMapping="h2">
+				{character.name ? character.name : 'New Character'}
+			</Typography>
+			<Typography variant="body1" variantMapping="p">
+				Character page (editing)
+			</Typography>
 			<Grid2 container spacing={1}>
 				<Grid2 xs={12}>
-					<h3>Attributes</h3>
+					<Typography variant="h3" variantMapping="h3">
+						Attributes
+					</Typography>
 				</Grid2>
 				<AttributeEditor
 					attribute={character?.attributes?.strength}
@@ -154,10 +161,14 @@ function CharacterEditor() {
 					/>
 				</Grid2>
 				<Grid2 xs={12}>
-					<h3>Abilities</h3>
+					<Typography variant="h3" variantMapping="h3">
+						Abilities
+					</Typography>
 				</Grid2>
 				<Grid2 xs={12}>
-					<h3>Knacks</h3>
+					<Typography variant="h3" variantMapping="h3">
+						Knacks
+					</Typography>
 				</Grid2>
 			</Grid2>
 		</div>

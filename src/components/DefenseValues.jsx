@@ -1,3 +1,5 @@
+import Typography from '@mui/material/Typography';
+
 function DefenseValues({ character, weapon }) {
 	const dexterity = character.attributes.dexterity;
 	const dodge = character.abilities.dodge;
@@ -10,9 +12,9 @@ function DefenseValues({ character, weapon }) {
 		Math.ceil((dexterity.dots + melee.value + weaponDefense) / 2) +
 		dexterity.epics;
 	return (
-		<p>
+		<Typography variant="body1" variantMapping="p">
 			Dodge DV: {dodgeDv}; Parry DV: {parryDv};
-		</p>
+		</Typography>
 	);
 }
 

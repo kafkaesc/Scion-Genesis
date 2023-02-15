@@ -1,3 +1,5 @@
+import Typography from '@mui/material/Typography';
+
 import './KnackPicker.css';
 
 // TODO: Make this collapsed by default and expand out with a nice animation
@@ -14,12 +16,12 @@ function KnackPicker({ activeEpicAttribute, attribute, character, update }) {
 			}
 		>
 			{activeEpicAttribute?.abbr === attribute.abbr && (
-				<p>
+				<Typography variant="body1" variantMapping="p">
 					KnackPicker for: {attribute.name}.{' '}
 					{activeEpicAttribute.step === 'up'
 						? 'Add a knack.'
 						: 'Remove a knack.'}
-				</p>
+				</Typography>
 			)}
 		</div>
 	);

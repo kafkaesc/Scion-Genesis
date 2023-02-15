@@ -1,12 +1,13 @@
 //import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
+
 import AbilityDisplay from './AbilityDisplay';
 
 function AbilitySetDisplay({ abilitySet, name }) {
 	return (
 		<>
 			<label>{name}</label>
-			<Typography component="p">
+			<Typography variant="body1" variantMapping="p">
 				{abilitySet.map((ability, i, { length }) => (
 					<AbilityDisplay
 						ability={ability}

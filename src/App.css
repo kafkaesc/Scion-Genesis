@@ -1,19 +1,16 @@
 .app-header {
 	align-items: center;
-	color: #eee;
 	background-color: #222;
+	color: #eee;
 	display: flex;
 	justify-content: center;
 	min-height: 64px;
-}
-
-.app-header h1 {
-	font-size: 32px;
+	padding: 8px;
 }
 
 .content-column {
 	margin: 0 auto;
 	max-width: 900px;
-	padding-left: 4px;
-	padding-right: 4px;
+	padding-left: 8px;
+	padding-right: 8px;
 }
